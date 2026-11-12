@@ -1,0 +1,25 @@
+Class User{
+    void name(int a){   
+        System.out.println("Function 1");
+    }
+    void name(){
+        System.out.println("Function 2");
+    }
+    void name(int a,int b){
+        System.out.println("Function 3");
+    }
+    void name(double a){
+        System.out.println("Function 4");
+    }
+}
+
+Class Main{
+    public static void main(string[]args){
+    User us=new user();
+    us.name();
+    us.name(a:10);
+    us.name(a:10,b=20);
+    us.name(a:2.45);
+    }
+}  
+    

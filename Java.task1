@@ -1,0 +1,26 @@
+Class bankaccount{
+    double balance=0;
+
+    void deposit(int a){
+        balance+=a;
+    }
+
+    void deposit(doble a){
+        balance+=a;
+    }
+
+    void deposit(int a,String s){
+        balance+=a;
+        system.out.println(s);
+    }
+
+    public static void main(String[]args){
+        bankaccount b=new bankaccount();
+
+        b.deposit(1000);
+        b.deposit(500.5);
+        b.deposit(200,"cash deposit");
+
+        system.out println("balance="+b.balance);
+    }
+}
